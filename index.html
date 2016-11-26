@@ -22,12 +22,29 @@
 	<nav class="text-xs-center pos-f-t">
 		<ul id="nav" class="nav nav-inline">
 			<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-			<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Multimedia</a>
+				
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">Events</a>
+					<a href="#" class="dropdown-item">Blog</a>
+					<a href="#" class="dropdown-item">Podcast</a>
+				</div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+				<div class="dropdown-menu">
+				<a href="" class="dropdown-item">Consulting</a>
+				<a href="" class="dropdown-item">Speaking</a>
+
+				</div>
+				
+			</li>
 			<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 
-	<header id="home" class="text-xs-center">
+	<header class="text-xs-center">
 		<div>
 			<h1><a href="">Melendez Media Group</a></h1>
 			<p>We are multimedia company inspiring the<br>next generation of changemakers<br>through storytelling and events that<br>spark social innovation.</p>
@@ -162,11 +179,15 @@
 		</footer>
 	</div>
 
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 
-	<script src="js/jqueryNav.min.js"></script>
-	<script>
-		$('#nav').onePageNav();
-	</script>
+  	<script src="js/tether.min.js"></script>
+
+  	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/app.js"></script>
 </body>
 </html>
