@@ -183,17 +183,27 @@ footer a {
   footer a:hover {
     color: #bb6115; }
 
-/*** BLOG STYLES ***/
-#blog-header {
+/*** Page header styles***/
+#blog {
   background-image: url(../assets/blog.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-  #blog-header h1 {
+  #blog h1 {
     color: #fff; }
+  #blog .faded-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem 0; }
 
-.faded-background {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 1rem 1.5rem 0; }
+#events {
+  background-image: url(../assets/events.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #events h1 {
+    color: #fff; }
+  #events .faded-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem 0; }
 
 /*# sourceMappingURL=main.css.map */
