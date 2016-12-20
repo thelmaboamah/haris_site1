@@ -190,7 +190,8 @@ footer a {
   background-size: cover;
   background-position: center center; }
   #blog h1 {
-    color: #fff; }
+    color: #fff;
+    /*font-family: $body-font;*/ }
   #blog .faded-background {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem 1.5rem 0; }
@@ -201,7 +202,8 @@ footer a {
   background-size: cover;
   background-position: center center; }
   #events h1 {
-    color: #fff; }
+    color: #fff;
+    /*font-family: $body-font;*/ }
   #events .faded-background {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem 1.5rem 0; }
